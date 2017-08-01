@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
-@RequestMapping("/springboot")
+@RequestMapping("/springboot") 
 public class Application {
 	
 	@RequestMapping("/")
