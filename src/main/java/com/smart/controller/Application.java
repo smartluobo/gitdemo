@@ -14,6 +14,7 @@ public class Application {
 	@RequestMapping("/")
 	public String geeting(){
 		System.out.println("zhangsan");
+		System.out.println("lisi");
 		return "hello world";
 		
 	}
