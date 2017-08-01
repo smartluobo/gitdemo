@@ -18,6 +18,8 @@ public class ApplicationTest {
 	
 	@RequestMapping("/")
 	public String geeting(){
+		
+		System.out.println("Hello  world");
 		return "hello world";
 	}
 	
