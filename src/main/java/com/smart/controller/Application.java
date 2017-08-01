@@ -13,7 +13,9 @@ public class Application {
 	
 	@RequestMapping("/")
 	public String geeting(){
+		System.out.println("zhangsan");
 		return "hello world";
+		
 	}
 	
 	@RequestMapping("/getList/{id}")
