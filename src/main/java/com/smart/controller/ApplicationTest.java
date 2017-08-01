@@ -14,7 +14,7 @@ import com.fasterxml.jackson.core.sym.Name;
 @SpringBootApplication
 @RestController
 @RequestMapping("/springboot")
-public class Application {
+public class ApplicationTest {
 	
 	@RequestMapping("/")
 	public String geeting(){
